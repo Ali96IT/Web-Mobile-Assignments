@@ -1,0 +1,51 @@
+body{
+    text-align: center !important; 
+}
+h1{
+    color: black;
+}
+h2{
+    text-align: center;
+    width: 50px;
+padding-top: 80px;    color: rgb(248, 240, 240);
+    display: inline-block;
+}
+.button5 {border-radius: 50%;}
+.button {
+    background-color: #eead3d; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: #f3e95c; /* Green */
+
+  }
+.value{
+    height: 300px;
+  width: 300px;
+  margin-top: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border-color: #ff8c1a;
+  border-width: 10px;
+  display: inline-block;
+  border-style: solid;
+
+}
+.main{
+    border-color: #fad869 #f1c42f #eb5600;
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    border-width: 10px;
+    display: inline-block;
+    border-style: dotted;
+
+}
