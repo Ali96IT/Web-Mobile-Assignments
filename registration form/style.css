@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=tel],input[type=pincode],input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date]{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-top:-10px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit]{
+  background-color:#99F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+input[type=submit]:hover {
+  background-color: #99C;
+  
+}
+input[type=reset]{
+  background-color:#99F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+input[type=reset]:hover {
+  background-color: #99C;
+  
+}
+
+input[type=checkbox] {
+	width:20px;
+	height:20px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#66F;
+  padding: 20px;
+  color:#FFF;
+}
+
+.col {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.col-1 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-2{
+	float:left;
+width: 40%;
+  margin-top: 0px;
+  padding-left:10px;
+}
+.col-3{
+	float:left;
+width: 10%;
+height:10%;
+  margin-top: 15px;
+}
+.col-5{
+	float:left;
+width: 70%;
+  margin-top: 15px;
+}
+
+.other{
+	float:right;
+	padding-right:70px;}
+.heading1{text-align:center;
+color:#63F;
+}
+.heading2{text-align:center;
+color:#3C0;
+}
+.heading3{text-align:center;
+color:#63C;
+}
+
